@@ -29,6 +29,12 @@ a:hover {
   color: red;
 }
 
+.profile-pic {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 /* MENU */
 
 nav {
@@ -80,6 +86,19 @@ nav {
   font-weight: bold;
 }
 
+/* ABOUT */
+
+.about {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 10rem 2rem 1rem;
+  border-bottom: 1px solid #CCCBCB;
+}
+
+.aboyt p {
+  font-size: 1rem;
+}
+
 /* FOOTER */
 footer {
   max-width: 60rem;
@@ -118,6 +137,9 @@ footer {
     text-align: right;
   }
   .description {
+    padding: 1rem;
+  }
+  .about {
     padding: 1rem;
   }
 }
