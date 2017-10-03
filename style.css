@@ -1,0 +1,123 @@
+/* GENERAL */
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+  transition: all .2s ease-in;
+}
+
+a:hover {
+  border-bottom: 1px solid red;
+}
+
+/* GLOBAL */
+
+.red {
+  color: red;
+}
+
+/* MENU */
+
+nav {
+  border-bottom: 1px solid #CCCBCB;
+}
+.menu {
+  max-width: 60rem;
+  display: flex;
+  margin: 0 auto;
+}
+.menu-items {
+  list-style-type: none;
+  flex: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  display: inline-block;
+  margin: 1.5rem 1rem;
+}
+
+.logo {
+  padding: 1.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo a {
+  border-bottom: none;
+}
+
+.logo a:hover {
+  color: red;
+  border-bottom: none;
+}
+
+/* DESCRIPTION */
+
+.description {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 10rem 2rem 1rem;
+  border-bottom: 1px solid #CCCBCB;
+}
+
+.description p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .7rem;
+  padding-bottom: 2rem;
+}
+
+.social-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-items li {
+  display: inline-block;
+  margin: 1.5rem .5rem;
+}
+
+
+/* FEDT */
+
+@media screen and (max-width: 50rem) {
+  .menu {
+    padding: 1rem 0;
+  }
+  .menu-items li {
+    width: 100%;
+    margin: .5rem 1rem;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+  .description {
+    padding: 1rem;
+  }
+}
