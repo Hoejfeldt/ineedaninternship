@@ -66,9 +66,9 @@ nav {
   border-bottom: none;
 }
 
-/* DESCRIPTION */
+/* DESCRIPTION + FORM TEXT*/
 
-.description {
+.description, .form-text {
   max-width: 60rem;
   margin: 0 auto;
   padding: 2rem 10rem 2rem 1rem;
@@ -77,6 +77,26 @@ nav {
 
 .description p {
   font-size: 2rem;
+  font-weight: bold;
+}
+
+.form-text p, .form-text input {
+  font-size: 2rem;
+}
+
+.form-text input {
+  color: red;
+  border: none;
+  border-bottom: 1px solid red;
+}
+.form-text input::placeholder {
+  color: blue;
+  font-size: 1.5rem; 
+}
+
+.form-text input[type=submit] {
+  color: red;
+  background-color: white;
   font-weight: bold;
 }
 
@@ -130,7 +150,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description {
+  .description, .form-text {
     padding: 1rem;
   }
   .about {
