@@ -23,6 +23,17 @@ a:hover {
   border-bottom: 1px solid red;
 }
 
+h2 {
+  font-size: 3rem;
+  margin: auto;
+}
+
+h3 {
+  text-decoration-style: dashed;
+  ax-width: 60rem;
+  margin: 0 auto;
+}
+
 /* GLOBAL */
 
 .red {
@@ -68,7 +79,7 @@ nav {
 
 /* DESCRIPTION + FORM TEXT*/
 
-.description, .form-text {
+.description, .form-text, .work-introduction {
   max-width: 60rem;
   margin: 0 auto;
   padding: 2rem 10rem 2rem 1rem;
@@ -103,7 +114,6 @@ nav {
 /* ABOUT */
 
 .about-video {
-
   display: block;
   margin: 0 auto;
   padding: 2rem 0 0 0;
@@ -141,6 +151,72 @@ footer {
   margin: 1.5rem .5rem;
 }
 
+/* WORK/PORTFOLIO */
+
+.article-h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 10rem 2rem 1rem;
+}
+
+.work {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 0 2rem 0;
+  border-bottom: 1px solid #CCCBCB;
+}
+
+.gallery:hover {
+    border: 1px solid color: red;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.work-titel {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .5rem 0rem;
+}
+
+.work-year {
+  font-style: italic;
+  color: grey;
+}
+
+.desc {
+    padding: .5rem 0rem;
+}
+
+.responsive-work {
+    padding: 0 .5rem;
+    float: left;
+    width: 33.3333%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 66.666%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* FEDT */
 
@@ -157,7 +233,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description, .form-text {
+  .description, .form-text, .work-introduction {
     padding: 1rem;
   }
   .about {
@@ -167,4 +243,5 @@ footer {
     width: 100%;
     padding: 1rem;
   }
+
 }
