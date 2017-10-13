@@ -12,6 +12,9 @@ html, body {
 * {
   box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -23,15 +26,16 @@ a:hover {
   border-bottom: 1px solid red;
 }
 
-h2 {
-  font-size: 3rem;
-  margin: auto;
+h1,h2,h3 {
+  text-transform: uppercase;
 }
-
-h3 {
-  text-decoration-style: dashed;
-  ax-width: 60rem;
-  margin: 0 auto;
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
 }
 
 /* GLOBAL */
@@ -86,7 +90,7 @@ nav {
   border-bottom: 1px solid #CCCBCB;
 }
 
-.description p {
+.description p, .work-introduction p {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -153,28 +157,24 @@ footer {
 
 /* WORK/PORTFOLIO */
 
-.article-h3 {
-  font-size: 1.5rem;
-  font-style: italic;
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 2rem 10rem 2rem 1rem;
-}
-
 .work {
   max-width: 60rem;
   margin: 0 auto;
-  padding: 0 0 2rem 0;
+  padding: 2rem 0;
   border-bottom: 1px solid #CCCBCB;
 }
-
-.gallery:hover {
-    border: 1px solid color: red;
+.work h2 {
+  margin-left: 1rem;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  flex: 1;
+  padding: 1rem;
 }
 
 .work-titel {
@@ -192,35 +192,10 @@ footer {
     padding: .5rem 0rem;
 }
 
-.responsive-work {
-    padding: 0 .5rem;
-    float: left;
-    width: 33.3333%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 66.666%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 /* FEDT */
 
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 40rem) {
   .menu {
     padding: 1rem 0;
   }
@@ -242,6 +217,9 @@ footer {
   .about-video {
     width: 100%;
     padding: 1rem;
+  }
+  .gallery {
+    flex: 0 0 100%;
   }
 
 }
