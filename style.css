@@ -90,7 +90,13 @@ nav {
   border-bottom: 1px solid #CCCBCB;
 }
 
-.description p, .work-introduction p, .fail-introduction {
+.about-introduction {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 10rem 0rem 1rem;
+}
+
+.description p, .work-introduction p, .fail-introduction, .about-introduction {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -177,6 +183,10 @@ footer {
   padding: 1rem;
 }
 
+.gallery:hover {
+  transform: scale(1.005);
+}
+
 .work-titel {
   font-weight: bold;
   text-transform: uppercase;
@@ -208,7 +218,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description, .form-text, .work-introduction, .fail-introduction {
+  .description, .form-text, .work-introduction, .fail-introduction, .about-introduction {
     padding: 1rem;
   }
   .about {
