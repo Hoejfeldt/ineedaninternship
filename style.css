@@ -83,14 +83,14 @@ nav {
 
 /* DESCRIPTION + FORM TEXT*/
 
-.description, .form-text, .work-introduction {
+.description, .form-text, .work-introduction, .fail-introduction {
   max-width: 60rem;
   margin: 0 auto;
   padding: 2rem 10rem 2rem 1rem;
   border-bottom: 1px solid #CCCBCB;
 }
 
-.description p, .work-introduction p {
+.description p, .work-introduction p, .fail-introduction {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -208,7 +208,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description, .form-text, .work-introduction {
+  .description, .form-text, .work-introduction, .fail-introduction {
     padding: 1rem;
   }
   .about {
