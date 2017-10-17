@@ -83,7 +83,7 @@ nav {
 
 /* DESCRIPTION + FORM TEXT*/
 
-.description, .form-text, .work-introduction, .fail-introduction {
+.description, .form-text, .work-introduction, .fail-introduction, article {
   max-width: 60rem;
   margin: 0 auto;
   padding: 2rem 10rem 2rem 1rem;
@@ -178,7 +178,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.gallery {
+.gallery, .gallery-last {
   flex: 1;
   padding: 1rem;
 }
@@ -218,7 +218,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description, .form-text, .work-introduction, .fail-introduction, .about-introduction {
+  .description, .form-text, .work-introduction, .fail-introduction, .about-introduction, .article {
     padding: 1rem;
   }
   .about {
@@ -228,7 +228,7 @@ footer {
     width: 100%;
     padding: 1rem;
   }
-  .gallery {
+  .gallery, .gallery-last {
     flex: 0 0 100%;
   }
 
