@@ -202,6 +202,31 @@ footer {
     padding: .5rem 0rem;
 }
 
+/* ARTICLE */
+
+.article-titel {
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid #CCCBCB;
+}
+
+.article-intro {
+  padding: 1rem 0;
+}
+
+.article-top-pic {
+  padding: 1rem 0;
+}
+
+.article-text-pic {
+  padding: 1rem 0;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.article-text p {
+  padding: 0 0 3rem 0;
+}
 
 /* FEDT */
 
