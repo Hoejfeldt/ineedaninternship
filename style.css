@@ -217,7 +217,7 @@ footer {
   padding: 1rem 0;
 }
 
-.article-text-pic {
+.article-text-pic, .article-text-video {
   padding: 1rem 0;
   display: block;
   margin: 0 auto;
@@ -243,7 +243,7 @@ footer {
     align-items: center;
     text-align: right;
   }
-  .description, .form-text, .work-introduction, .fail-introduction, .about-introduction, .article {
+  .description, .form-text, .work-introduction, .fail-introduction, .about-introduction, article {
     padding: 1rem;
   }
   .about {
