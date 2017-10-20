@@ -178,7 +178,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.gallery, .gallery-last {
+.gallery, .gallery-no-link {
   flex: 1;
   padding: 1rem;
 }
