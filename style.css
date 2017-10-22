@@ -83,6 +83,12 @@ nav {
 
 /* DESCRIPTION + FORM TEXT*/
 
+.intro-video {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 .description, .form-text, .work-introduction, .fail-introduction, article {
   max-width: 60rem;
   margin: 0 auto;
@@ -249,7 +255,7 @@ footer {
   .about {
     padding: 1rem;
   }
-  .about-video {
+  .about-video, .intro-video {
     width: 100%;
     padding: 1rem;
   }
