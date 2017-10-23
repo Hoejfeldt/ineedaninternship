@@ -86,7 +86,9 @@ nav {
 .intro-video {
   display: block;
   margin: 0 auto;
-  padding: 1rem;
+  max-width: 70rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #CCCBCB;
 }
 
 .description, .form-text, .work-introduction, .fail-introduction, article {
@@ -148,12 +150,13 @@ nav {
 
 /* FOOTER */
 footer {
+  padding: 2rem 0rem;
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
   font-size: .7rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .social-items {
